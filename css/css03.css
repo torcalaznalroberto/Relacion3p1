@@ -1,0 +1,36 @@
+body *{
+    color: cyan;
+}
+
+body {
+    background-color: #ffff99;
+}
+
+/* background-repeat values: repeat, repeat-y, repeat-x, no-repeat */
+body {
+    background-image: url("../img/ejercicio03_imagen01.gif");
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body {
+    background-image: url("../img/ejercicio03_imagen01.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* attachment values: scroll, fixex, loca, initial, inherit. */
+body {
+    background-image: url("../img/ejercicio03_imagen01.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+body {
+    background-color: plum;
+    background-image: url("../img/ejercicio03_imagen02.jpg");
+    background-size: cover;
+}

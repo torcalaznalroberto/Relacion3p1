@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*  Esta regla afecta a todos los elementos de la página.   */
+* { font-family: arial;
+}
+
+/*  Esta regla afecta a todos los párrafos. */
+p { color: #555555;
+}
+
+/*  Esta regla afecta a todos los párrados que se encuentran 
+    dentro de un elemento con el atributo id="primero". */
+p#primero { color: #336699;
+}
+
+/*  Esta regla afecta a todos los enlaces.   */
+a { color: #CC3300;
+}
+
+/*  Esta regla afecta a todos los <em> que se encuentran 
+    dentro de un elemento con el atributo id="primero" 
+    
+    Nota: No confundas la etiqueta <em> de HTML cn
+          la medida "em" de CSS.    */
+#primero em {background: #FFFFCC;
+            padding: .1em;
+}
+
+/*  Esta regla afecta a todos los elementos <em>
+    que tienen el atributo class="especial".    */
+em.especial {background: #FFCC99;
+                border: 1px solid #FF9900;
+                padding: .1em;
+}
+
+/*  Esta regla afecta a todos los elementos <span>
+    que estan dentro de elementos que tienen
+    el atributo class="normal". */
+.normal span{font-weight: bold;
+}

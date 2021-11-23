@@ -1,0 +1,24 @@
+.pri {
+    letter-spacing: 1cm;
+}
+.seg {
+    letter-spacing: 2cm;
+}
+.ter {
+    line-height: 30%;
+}
+.cua {
+    line-height: 1.6;
+}
+.qui {
+    word-spacing: 1cm;
+}
+.sex {
+    word-spacing: 2cm;
+}
+.sep {
+    text-shadow: 4px 4px violet;
+}
+.oct {
+    text-shadow: -2px -2px pink;
+}

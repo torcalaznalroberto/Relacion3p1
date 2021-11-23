@@ -1,0 +1,9 @@
+ol.a {list-style-type: hiragana;}
+ol.b {list-style-type: cjk-ideographic;}
+ul.c {list-style: square inside url("../img/ejercicio08_imagen02.png");}
+ul.d {list-style-image: url("../img/ejercicio08_imagen01.gif");}
+
+table, th, td{ 
+    border-style: dashed;
+    border-collapse: collapse;
+}
