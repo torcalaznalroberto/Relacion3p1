@@ -1,8 +1,5 @@
-body *{
-    color: cyan;
-}
-
 body {
+    color: cyan;
     background-color: #ffff99;
 }
 
@@ -33,4 +30,16 @@ body {
     background-color: plum;
     background-image: url("../img/ejercicio03_imagen02.jpg");
     background-size: cover;
+}
+
+
+/* Selector de ejercicio */
+div.select {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: whitesmoke;
+    color: black;
+    padding: 10;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }

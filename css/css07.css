@@ -4,3 +4,13 @@ ul.c {list-style-type: upper-roman;}
 ul.d {list-style-type: lower-alpha;}
 
 table {border-collapse: collapse;}
+
+div.select {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: whitesmoke;
+    color: black;
+    padding: 10;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}

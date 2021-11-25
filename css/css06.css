@@ -22,11 +22,20 @@ p.small {font-variant: small-caps;}
 
 /*  (emty-cells) Eliminar celdas vacias
     (border-collapse) Modificar hueco entre borde de celdas y tabla */
-table
+table , td, th
 {
+    border: 1px solid black;
     border-collapse: separate;
     empty-cells: hide;
 }
-tfoot{
-    background-color: greenyellow;
+
+
+div.select {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: whitesmoke;
+    color: black;
+    padding: 10;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
